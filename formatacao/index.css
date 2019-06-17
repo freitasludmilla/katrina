@@ -1,0 +1,36 @@
+.button {
+    background-image:url('http://css3button.net/176376');
+}
+/* body{
+  background-color: red;
+}
+.fundojogo{
+  background-color: #e68a00;
+
+} */
+.cor{
+  background-color: blue;
+}
+img{
+  margin: 30px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+td, th {
+  border: 3px solid black;
+  padding: 8px;
+}
+th{
+  background-color: black;
+  color: white;
+}
+
+tr{
+  background-color: white;
+}

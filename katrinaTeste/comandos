@@ -1,0 +1,14 @@
+Baixar o repositório do Github:
+- git clone https://github.com/freitasludmilla/katrina.git
+
+Adicionar as mudanças feitas na nova versão
+- git add *
+
+Configurar o usuário que fará/registrará as alterações
+- git config user.email "miludlla15@gmail.com"
+
+Registrar as mudanças (nova versão)
+- git commit -m "Mensagem explicando mudanças"
+
+Enviar código para repositório na Internet
+- git push origin master

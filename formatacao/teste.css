@@ -1,0 +1,19 @@
+.form {
+    background-color: #fff;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.3);
+    margin: 0 auto;
+    max-width: 21em;
+    padding: 2.5em 2.5em 1em;
+    width: 100%;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+form {
+    display: block;
+    margin-top: 0em;
+}
+.fonts-loaded body {
+    font-family: Open Sans,sans-serif;
+}
