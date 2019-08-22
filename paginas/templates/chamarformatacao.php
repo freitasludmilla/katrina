@@ -8,10 +8,5 @@
     <link rel="stylesheet" href="../formatacao/index.css">
     <link rel="stylesheet" href="../formatacao/jquery-3.4.1.js">
 
-    <title></title>
-
-  </head>
-  <body>
-
-  </body>
-</html>
+     <title>Katrina - Eventos IFPR-Paranavaí</title>
+     </head>

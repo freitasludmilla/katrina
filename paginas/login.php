@@ -1,47 +1,107 @@
 <?php
-include "chamarformatacao.php";
+include "templates/chamarformatacao.php";
  ?>
 
 <!DOCTYPE html>
+
+<!-- templates - telas padrão
+cabeçalho
+
+controle - algoritmos
+
+require 'template/header.php';
+
+index - endereço
+onde chama as telas
+
+ -->
+
 <html lang="pt-br" dir="ltr">
   <head>
-
-    <title>Tela Jogo</title>
-
+    <title>Login - Katrina</title>
+    <meta charset="utf-8">
   </head>
-  <body class="bg-dark">
-    <div class="p-2">
 
+
+  <body class="bg-success">
+
+    <div class="p-3 m-1">
     </div>
-    <div class="container bg-warning">
+
+
+    <div class="container bg-white">
+
       <div class="row">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png" alt="" width=60 height=40>
-          <div class="col-sm-11 pl-5 ml-4 " align="center">
-            <div class="p-5 m-5">
 
-            </div>
-            <div class="container">
-            <form action="verificarlogin.php" method="post" class="">
-                <!-- action, informa para onde os dados iram -->
-                <!-- post esconde os dados privados da url -->
-                <label>Nick: </label>
-                <input type="text" name="nick" value=""><br>
-                <label>Senha: </label>
-                <input type="password" name="senha" value=""><br>
+        <div class="col-sm-12  " align="center">
+          <div class="p-1 m-1">
+          </div>
 
-                <input type="submit" value="Entrar" class="p-2 mt-1 btn-danger button">
+          <img src="../titulo.png" height="30" alt="">
 
-              </div>
-            <br>
-            <div class="p-5 m-4">
 
-            </div>
-            <br>
-            <div class="p-4 m-4">
-
-            </div>
         </div>
+
+
       </div>
-    </div>
+
+        <div class="row2" align="center">
+
+          <div class="p-3 m-3">
+          </div>
+
+
+          <form action="verificarlogin.php" method="post" class="" id="formulario">
+              <!-- action, informa para onde os dados iram -->
+              <!-- post esconde os dados privados da url -->
+              <label>Login: </label>
+              <input type="text" name="login" value="" class="form-login obrigatorio">
+              <span class="mensagem"></span>
+              <br>
+
+              <label>Senha: </label>
+              <input type="password" name="senha" value="" class="form-senha obrigatorio">
+              <span class="mensagem"></span>
+              <br>
+              <br>
+
+              <button type="submit" class="mt-3 btn btn-info" name="">Entrar</button>
+
+
+          </form>
+
+
+        </div>
+
+        <div class="p-3 m-3">
+        </div>
+
+
+        <div class="row3 col-sm-12  " align="center">
+            <div class="p-1 m-1">
+            </div>
+
+            <img src="../LogoKat.png" height="50" alt="">
+            <br>
+            <br>
+          </div>
+
+
+      </div>
+
+      <!-- termina branco  -->
+
+      <div class="row4 col-sm-12  " align="center">
+          <div class="p-1 m-1">
+          </div>
+
+          <p>Desenvolvido por</p>
+          <p>Ludmilla Freitas e Isabela Cambiriba</p>
+          <p>Brasil</p>
+
+        </div>
+
+  <!-- termina verde -->
+
   </body>
 </html>
